@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(../img/beautiful-blue-watercolor-texture-background_1035-20478.webp);
+    background-repeat: no-repeat;
+}
+
+body {
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentColor {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-boxes {
+    display: flex;
+    flex-direction: row;
+}
